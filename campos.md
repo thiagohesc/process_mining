@@ -1,10 +1,10 @@
-# 📑 Glossário do Event Log (DataJud → Process Mining)
+# 📑 Glossário do Event Log
 
 ## Campos essenciais
 
 - **case_id**  
   Identificador único do processo no DataJud (campo `_id`).  
-  Exemplo: `TST_1689_SUP_45226_01552001520135170141`
+  Exemplo: `TST_1234_SUP_1234_123456789`
 
 - **activity**  
   Nome do movimento processual registrado no processo.  
@@ -31,8 +31,7 @@
   Código do órgão julgador vinculado ao movimento (quando disponível).
 
 - **movimentos.orgaoJulgador.nomeOrgao**  
-  Nome do órgão julgador vinculado ao movimento.  
-  Exemplo: `GAB. DO MINISTRO WALMIR OLIVEIRA DA COSTA`
+  Nome do órgão julgador vinculado ao movimento.
 
 ---
 
@@ -40,7 +39,7 @@
 
 - **numeroProcesso**  
   Número único do processo no padrão CNJ.  
-  Exemplo: `01552001520135170141`
+  Exemplo: `0123456789`
 
 - **tribunal**  
   Tribunal responsável pelo processo.  
@@ -80,7 +79,6 @@
 
 - **orgaoJulgador.nome**  
   Nome do órgão julgador principal do processo.  
-  Exemplo: `GAB. DO MINISTRO WALMIR OLIVEIRA DA COSTA`
 
 - **orgaoJulgador.codigoMunicipioIBGE**  
   Código IBGE do município do órgão julgador.  
